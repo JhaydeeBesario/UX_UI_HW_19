@@ -115,4 +115,23 @@ View All Projects
             </footer>
         </section>
     </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+$( "li" ).hover(
+  function() {
+   
+  }, function() {
+    $( this ).find( "span" ).last().remove();
+  }
+);
+$("li").hover(function()
+{
+    $(this).css("font-weight", 'bold');
+});
+$( "li.fade" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
+</script>
 </html>
