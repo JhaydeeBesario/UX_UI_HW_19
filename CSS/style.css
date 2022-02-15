@@ -1,0 +1,51 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 20%;
+  }
+  .heroImg {
+    text-align: center;
+  }
+  .intro {
+    font-weight: bold;
+    }
+
+      ul {
+        list-style-type: none;
+        margin-top: 20px;
+      }
+      body {
+        background-color: #F5F5F5;
+        margin-top: 30px;
+        }
+    .inline-block{
+      display: inline-block;
+      vertical-align: top;
+    }
+    .headerLogo {
+        text-align:center;
+    }
+    .grid-container-element { 
+        display: grid; 
+        grid-template-columns: 2fr 12fr; 
+        grid-gap: 20px; 
+        width: 55%; 
+        align-items: center;
+        margin-top: 5%;
+        margin-left: 22%;
+    } 
+    .grid-child-element { 
+        margin: 10px; 
+    }
+    .nav {
+        text-align: center;
+        
+    }
+    .footer {
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
