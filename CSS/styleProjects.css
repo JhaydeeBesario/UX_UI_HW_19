@@ -79,3 +79,9 @@
     display: column;
     flex-direction: row-reverse;
   }
+  .footer {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-right: 3%;
+}
